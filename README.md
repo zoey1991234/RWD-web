@@ -14,7 +14,7 @@
 
 用於學習RWD響應式網頁設計
 
-基於ReactJS 和 Tailwind CSS 建立和部署完整的旅遊網站
+基於React.js 和 Tailwind CSS 建立和部署完整的旅遊網站
 
 # 環境配置
 
@@ -24,7 +24,7 @@
 
 ## 前端 
 
-ReactJS、Tailwind CSS
+React.js、Tailwind CSS
 
 ---------------------------------------
 # 主頁面
