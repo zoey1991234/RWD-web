@@ -12,7 +12,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-xl font-semibold text-black/70">
-                  Book Your Trip
+                預訂您的行程
                 </h1>
               </div>
               <div>
@@ -26,22 +26,22 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
             <div className="mt-4">
               <input
                 type="text"
-                placeholder="Name"
+                placeholder="姓名"
                 className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <input
                 type="email"
-                placeholder="email"
+                placeholder="電子郵件"
                 className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <input
                 type="text"
-                placeholder="Address"
+                placeholder="地址"
                 className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <div className="flex justify-center">
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full ">
-                  Book Now
+                  立即預訂
                 </button>
               </div>
             </div>
