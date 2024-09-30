@@ -21,19 +21,19 @@ const Banner = () => {
               </div>
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0 lg:px-16">
-                <h1
-                  data-aos="fade-up"
-                  className="text-3xl sm:text-4xl font-bold"
-                >
-                  Explore all corners of The world with us
-                </h1>
+              <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
+              與我們一起探索
+              <br />
+              世界各個角落
+              </h1>
                 <p
                   data-aos="fade-up"
                   className="text-sm text-gray-500 tracking-wide leading-8"
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio ratione ex alias quis magni at optio
+                  無論是壯麗的山川、廣闊的海洋，還是古老的文化與現代城市的交融，世界的每一個角落都在等待著我們的探索。
+                  每一場旅行都是一段新奇的冒險，無論是探索自然的奇觀，還是體驗不同國家的風土人情，
+                  旅行讓我們能夠暫時逃離日常的忙碌，
+                  重新發現生活的美好。
                   <br />
                 </p>
                 <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
