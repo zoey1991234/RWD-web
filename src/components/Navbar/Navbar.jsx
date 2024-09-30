@@ -51,8 +51,8 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="bg-gradient-to-r from-primary to-secondary text-white ">
           <div className="container py-[2px] sm:block hidden">
             <div className="flex items-center justify-between">
-              <p className="text-sm">20% off on next booking</p>
-              <p>mobile no. +91 123456789</p>
+              <p className="text-sm">下次預訂可享 20% 折扣</p>
+              {/* <p>電話號碼</p> */}
             </div>
           </div>
         </div>
@@ -68,22 +68,22 @@ const Navbar = ({ handleOrderPopup }) => {
               <ul className="flex items-center gap-6 ">
                 <li className="py-4">
                   <NavLink to="/" activeClassName="active">
-                    Home
+                    主頁
                   </NavLink>
                 </li>
                 <li className="py-4">
                   <NavLink to="/blogs" activeClassName="active">
-                    Blogs
+                    部落格
                   </NavLink>
                 </li>
                 <li className="py-4">
                   <NavLink to="/best-places" activeClassName="active">
-                    Best Places
+                  最佳遊覽地點
                   </NavLink>
                 </li>
                 <li className="py-4">
                   <NavLink to="/about" activeClassName="active">
-                    About
+                    關於
                   </NavLink>
                 </li>
                 <li className="group relative cursor-pointer">
@@ -91,10 +91,10 @@ const Navbar = ({ handleOrderPopup }) => {
                     href="/#home"
                     className="flex h-[72px] items-center gap-[2px]"
                   >
-                    Quick Links{" "}
-                    <span>
+                   {/* 快速連結{" "} */}
+                    {/* <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
-                    </span>
+                    </span> */}
                   </a>
                   <div className="absolute -left-9 z-[9999] hidden w-[150px] rounded-md bg-white p-2 text-black group-hover:block shadow-md ">
                     <ul className="space-y-3">
@@ -120,7 +120,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   handleOrderPopup();
                 }}
               >
-                Book Now
+                立即預訂
               </button>
               {/* Mobile Hamburger icon */}
               <div className="md:hidden block">
