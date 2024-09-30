@@ -10,8 +10,6 @@
 
 連結：https://warm-sundae-283206.netlify.app/
 
-# simple-movie-website
- 
 # 概要
 
 用於學習RWD響應式網頁設計
