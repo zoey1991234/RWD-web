@@ -12,19 +12,19 @@ import { Link } from "react-router-dom";
 
 const FooterLinks = [
   {
-    title: "Home",
+    title: "主頁" ,
     link: "/",
   },
   {
-    title: "About",
+    title: "關於",
     link: "/about",
   },
   {
-    title: "Best Places",
+    title: "最佳遊覽地點",
     link: "/best-places",
   },
   {
-    title: "Blogs",
+    title: "部落格",
     link: "/blogs",
   },
 ];
@@ -49,18 +49,16 @@ const Footer = () => {
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                facere ab hic accusamus omnis dolor voluptatibus illo, tempore
-                eum tenetur.
+              我們是一家專業的旅遊公司，致力於為您提供獨一無二的旅行體驗。無論您是熱愛冒險、渴望探索新奇之地，還是享受放鬆的度假時光，我們都能為您量身打造完美的行程。
               </p>
               <br />
               <div className="flex items-center gap-3 ">
                 <FaLocationArrow />
-                <p>Noida, Uttar Pradesh</p>
+                <p>Taipei, Taiwan</p>
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt />
-                <p>+91 123456789</p>
+                <p>+886 123456789</p>
               </div>
               {/* social handles */}
               <div>
@@ -80,7 +78,27 @@ const Footer = () => {
             <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
+                  {/* <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
+                   重要連結
+                  </h1>
+                  <ul className="flex flex-col gap-3">
+                    {FooterLinks.map((link) => (
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-gray-200">
+                        <Link
+                          to={link.link}
+                          onClick={() => window.scrollTo(0, 0)}
+                        >
+                          <span>&#11162;</span>
+                          <span>{link.title}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <div className="py-8 px-4"> */}
+                  {/* <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
                     Important Links
                   </h1>
                   <ul className="flex flex-col gap-3">
@@ -115,34 +133,14 @@ const Footer = () => {
                         </Link>
                       </li>
                     ))}
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
-                    Important Links
-                  </h1>
-                  <ul className="flex flex-col gap-3">
-                    {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-gray-200">
-                        <Link
-                          to={link.link}
-                          onClick={() => window.scrollTo(0, 0)}
-                        >
-                          <span>&#11162;</span>
-                          <span>{link.title}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
           </div>
           <div>
             <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white">
-              @copyright 2024 All rights reserved || Made with ❤️ by Dilshad
+              @copyright 2024 All rights reserved 
             </div>
           </div>
         </div>
